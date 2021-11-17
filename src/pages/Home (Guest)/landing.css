@@ -1,0 +1,57 @@
+.first-button-row {
+    height: 45px;
+}
+.card1-transform {
+    transform: translateY(5%);
+}
+.card2-transform {
+    transform: translateY(15%);
+}
+.card3-transform {
+    transform: translateY(30%);
+}
+.card1-transform,
+.card2-transform,
+.card3-transform {
+    opacity: 0;
+}
+.dirbuttons {
+    z-index: 5;
+    width: 100%;
+}
+.dirbutton-container {
+    cursor: pointer;
+    height: 90px;
+    width: 90px;
+    --transparency: 0.3;
+}
+.dirbutton-container:hover {
+    --transparency : 1;
+}
+.dirbutton-bar {
+    width: 44%;
+    height: 4%;
+    background-color: black;
+    margin: 12% 0;
+    opacity: var(--transparency);
+    transition-duration: 300ms;
+}
+.featured-container {
+    position: relative;
+    z-index: 1;
+}
+.featured-item {
+    --textPosition: none;
+    --backgroundScale: none;
+}
+.featured-text {
+    translate: 100%;
+    transform: var(--textPosition);
+}
+.featured-background {
+    transform: var(--backgroundScale)
+}
+.featured-item:hover {
+    --textPosition: translateY(-100%);
+    --backgroundScale: scale(1.05);
+}

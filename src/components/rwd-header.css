@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    .page-header {
+        height: 48px;
+    }
+    #motion-header-logo {
+        display: none;
+    }
+    .page-sidebar-button {
+        height: 38px;
+        width: 38px;
+        cursor: pointer;
+        margin-right: 2%;
+    }
+    .page-sidebar-button-bar {
+        height: 5%;
+        margin: 8% 0;
+        background: white;
+        border-radius: 2px;
+        width: 65%
+    }
+    .comp-name {
+        font-size: 14pt;
+    }
+    .page-header-button {
+        font-size: 10pt;
+    }
+}

@@ -1,0 +1,156 @@
+/* Main */
+@media (max-width: 768px) {
+    .page-main {
+        margin-top: 48px;
+    }
+}
+/* Board 1 */
+@media (min-width: 2560px) {
+    .page-board {
+        height: 1000px;
+    }
+
+    #first-overlay {
+        padding: 0 10%;
+    }
+
+    #first-content {
+        padding: 0 10%;
+    }
+
+    #first-heading {
+        font-size: 65pt;
+    }
+
+    #first-info {
+        font-size: 17pt;
+    }
+
+    #first-button-row {
+        height: 67px;
+    }
+
+    #get-started-button,
+    #login-button {
+        font-size: 17pt;
+        padding: 2% 5%;
+    }
+}
+@media (max-width: 768px) {
+    #first-overlay {
+        justify-content: center;
+        padding: 2% 5%;
+        align-items: flex-start;
+    }
+    #first-image-container {
+        height: 51%;
+    }
+    #first-content {
+        align-items: center;
+        justify-content: flex-end;
+        padding-bottom: 2%;
+    }
+    #first-heading {
+        text-align: center;
+        font-size: 20pt;
+    }
+    #first-info {
+        width: 75%;
+        text-align: center;
+        font-size: 10pt;
+    }
+    #first-button-row {
+        flex-direction: column;
+        height: 85px;
+    }
+    #get-started-button,
+    #login-button {
+        padding: 5%;
+        margin: 2% 0;
+    }
+}
+/* Categories & Board 2 */
+@media (max-width: 1024px) {
+
+    .main-card,
+    .secondary-cards {
+        margin: 0 3%;
+    }
+}
+@media (min-width: 2560px) {}
+@media (max-width: 768px) {
+    #category-row {
+        flex-direction: column;
+    }
+    #category-row>.category-button {
+        width: 75%;
+        margin: 2% 0;
+        padding: 3%;
+    }
+    .main-card,
+    .secondary-card {
+        margin: auto;
+    }
+    .secondary-card {
+        display: none;
+    }
+}
+/* Board 3 */
+@media (max-width: 1024px) {
+    #third-overlay {
+        padding-top: 5%;
+    }
+}
+@media (max-width: 768px) {
+    #third-overlay {
+        justify-content: center;
+        padding-top: 3%;
+    }
+    #third-overlay-masonry {
+        width: 100%;
+    }
+    #third-content{
+        align-items: center;
+        justify-content: flex-end;
+        padding-bottom: 15%;
+        background-image: linear-gradient(transparent, white, white);
+    }
+    #third-heading {
+        text-align: center;
+        font-size: 20pt;
+    }
+    #third-info {
+        text-align: center;
+        font-size: 10pt;
+        width: 75%;
+    }
+}
+
+/* Board 4 */
+@media (max-width: 768px) {
+    #fourth-board {
+        height: 350px;
+    }
+    #fourth-heading {
+        font-size: 24pt;
+    }
+    #featured {
+        height: 95%;
+        width: 100%;
+    }
+    .featured-text {
+        transform: translateY(-100%);
+        padding-left: 3%;
+        background-image: linear-gradient(transparent, black);
+    }
+    .featured-name {
+        font-size: 18pt;
+        margin-bottom: 1%;
+    }
+    .featured-artist {
+        font-size: 11pt;
+    }
+    .dirbutton-container {
+        display: none;
+    }
+}

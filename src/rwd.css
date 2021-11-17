@@ -1,0 +1,34 @@
+/*  */
+@media (max-width: 768px) {
+    #first-overlay {
+        justify-content: center;
+        padding: 2% 5%;
+        align-items: flex-start;
+    }
+    #first-image {
+        height: 51%;
+    }
+    #first-content {
+        align-items: center;
+        justify-content: flex-end;
+        padding-bottom: 2%;
+    }
+    #first-heading {
+        text-align: center;
+        font-size: 25pt;
+    }
+    #first-info {
+        width: 75%;
+        text-align: center;
+        font-size: 10pt;
+    }
+    #first-button-row {
+        flex-direction: column;
+        height: 85px;
+    }
+    #get-started-button,
+    #login-button {
+        padding: 5%;
+        margin: 2% 0;
+    }
+}

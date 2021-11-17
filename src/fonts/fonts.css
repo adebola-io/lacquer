@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Candara;
+    src: url(./CANDARA.TTF);
+}
+
+.fnt-candara {
+    font-family: Candara, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fnt-30pt {
+    font-size: 30pt;
+}
+.fnt-45pt {
+    font-size: 45pt;
+}
+.page-board-button {
+    padding: 1% 2%;
+    border-radius: 0.3em;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+}
+.page-board-card-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.page-board-card {
+    height: 370px;
+    width: 300px;
+    border-width: 2px;
+    border-style: solid;
+}
+.h120 {
+    height: 120%;
+}
+.w500 {
+    width: 500%;
+}
+.up-5 {
+    transform: translateY(-5%);
+}
+.up-100 {
+    transform: translateY(-100%);
+    translate: -100%;
+}
+.down-3 {
+    transform: translateY(3%);
+}
+.down-5 {
+    transform: translateY(5%);
+}
+.down-10 {
+    transform: translateY(10%);
+}
+.down-15 {
+    transform: translateY(15%);
+}
+.down-100 {
+    transform: translateY(100%);
+    translate: 100%;
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+}
+.scalex-0 {
+    transform: scaleX(0)
+}
+.hvr--up-5:hover {
+    transform: translateY(-5%);
+}
+.shadow-4px {
+    box-shadow: 0 0 4px 0;
+}
+.hv--shadow-4px:hover {
+    box-shadow: 0 0 4px 0;
+}
+.hv--shadow-8px:hover {
+    box-shadow: 0 0 8px 0;
+}
+.up-10 {
+    transform: translateY(-10%)
+}
+.down-5 {
+    transform: translateY(5%);
+}
+.brdr-curve-none {
+    border-radius: 0;
+}
+.w40 {
+    width: 40%;
+}
+.w42 {
+    width: 42%;
+}
+.w3rd {
+    width: 33.3333%;
+}
+.w4th {
+    width: 25%;
+}
+.whalf {
+    width: 50%;
+}

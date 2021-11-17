@@ -1,0 +1,13 @@
+html::-webkit-scrollbar {
+    display: none;
+}
+main, header {
+    background-color: white;
+}
+.page-board-card-row>.page-board-card {
+    background-size: 524%;
+    background-position-y: 32%;
+}
+h1 {
+    font-weight: normal;
+}
